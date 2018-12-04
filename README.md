@@ -25,3 +25,7 @@ Bonuses:
 
 - Make the number of rows and columns configurable.
 - Iterations on the spreadsheet style, UX or functionality.
+
+## Solution Demo
+
+* [Working copy of coded solution](http://www.robotomatic.com/projects/hackernoon/spreadsheet.html)
