@@ -1,9 +1,3 @@
-/*
-    Hacker Noon Coding Test
-    Joe Canas (joecanas1@gmail.com)
-    10/14/18
-*/
-
 'use strict';
 
 // Initialize spreadsheet after DOM loads
