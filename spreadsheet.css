@@ -1,0 +1,118 @@
+/*
+    Hacker Noon Coding Test
+    Joe Canas (joecanas1@gmail.com)
+    10/14/18
+*/
+
+html, 
+body {
+    height: 100%;
+    margin: 0;
+    min-height: 400px;
+    min-width: 320px;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #f5f5fa;
+    color: #000;
+    font: normal 18px Arial, Helvetica, sans-serif;
+}
+
+#container {
+    background-color: #fff;
+    border: 1px solid #666;
+    display: inline-block;
+    margin: 10px;
+    min-width: 500px;
+    padding: 20px;
+    width: auto;
+}
+
+/* Content displayed only if JavaScript is enabled; see spreadsheet.js */
+#content {
+    display: none;
+}
+
+#spreadsheet {
+    border-collapse: collapse;
+    margin: 20px 0 0 0;
+    width: auto;
+}
+
+#spreadsheet td {
+    border: 1px solid #ccc;
+    height: 35px;
+    min-width: 120px;
+    overflow: auto;
+    padding: 4px 9px 2px 9px;
+    width: 120px;
+}
+
+#spreadsheet #tally td {
+    border: none;
+    padding: 2px 9px 4px 9px;
+    text-align: center;
+}
+
+#spreadsheet #tally td .toggle {
+    cursor: pointer;
+}
+
+#spreadsheet #tally td .label {
+    color: #ccc;
+    display: inline-block;
+    font-size: 12px;
+    width: 30px;
+}
+
+#spreadsheet #tally td .result {
+    color: #000;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 30px 0 2px;
+}
+
+#spreadsheet #tally td .sum {
+    display: block;
+}
+
+#spreadsheet #tally td .avg,
+#spreadsheet #tally td .min,
+#spreadsheet #tally td .max {
+    display: none;
+}
+
+/* Firefox requires this to allow cursor click editing */
+[contenteditable] {
+    min-height: 1em;
+}
+
+[contenteditable]:focus {
+    outline: 0px solid #000;
+}
+
+.button {
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 8px;
+    outline: 0px solid transparent;    
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+}
+
+.button:hover {
+    background-color: #369;
+}
+
+.button:active {
+    background-color: #147;
+}

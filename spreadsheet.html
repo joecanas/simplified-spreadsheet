@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+    Hacker Noon Coding Test
+    Joe Canas (joecanas1@gmail.com)
+    10/14/18
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Simplified Spreadsheet</title>
+        <link type="text/css" rel="stylesheet" href="spreadsheet.css">
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <h1>Simplified Spreadsheet</h1>
+
+            <noscript>
+                <strong>Please enable JavaScript</strong>
+            </noscript>
+
+            <div id="content">
+                <p>Enter numbers into cells. Click SUM, AVG, MIN, MAX tallies to toggle calculations.</p>
+
+                <button class="button" onclick="addRow();">ADD ROW</button>
+                <button class="button" onclick="addColumn();">ADD COLUMN</button>
+                <button class="button" onclick="resetTable();">RESET</button>
+
+                <div id="app"></div>
+            </div>
+
+        </div>
+
+        <script src="spreadsheet.js"></script>
+
+    </body>
+</html>
